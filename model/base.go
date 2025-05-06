@@ -1,5 +1,9 @@
 package model
 
+import (
+	"fmt"
+)
+
 func Test() string {
-	return "Hello, world!"
+	return fmt.Sprintf("Hello, world! %v", "!")
 }
